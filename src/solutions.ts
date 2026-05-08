@@ -68,10 +68,3 @@ const getIntersection = (arr1: number[], arr2: number[]): number[] => {
   const commonNumbers = newArr1.filter((value) => set2.has(value));
   return commonNumbers;
 };
-
-let x: any = 123;
-
-x.lowerCase()
-
-let y: unknown= "rabiul";
-y
